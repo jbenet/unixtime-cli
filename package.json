@@ -18,5 +18,8 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/jbenet/unixtime-cli/issues"
+  },
+  "devDependencies": {
+    "unixtime": "0.0.1"
   }
 }
