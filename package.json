@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "unixtime from the commandline",
   "main": "index.js",
+  "bin": {
+    "unixtime": "cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/jbenet/unixtime-cli/issues"
   },
-  "devDependencies": {
+  "dependencies": {
     "unixtime": "0.0.1"
   }
 }
